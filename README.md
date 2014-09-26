@@ -16,6 +16,7 @@ Your application has to be named „mpiavg“ and hast to accept three parameter
 The data file is in the current working directory of the program. It contains one double value per line (“4.84637”).
 
 We will run your application as follows, with variations in the numerical parameters:
+
 `mpirun --cpus-per-proc 2 -np 16 mpiavg data.txt 7 9`
 
 Example content of “data.txt”:
